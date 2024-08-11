@@ -1,0 +1,17 @@
+TBJ606:
+  Vendor: Lenovo
+  codename: TBJ606
+  Names:
+    - P11
+    - TB-J606F
+    - Lenovo Tab P11
+  PrettyName: Lenovo Tab P11
+  DeviceType: tablet
+  GridUnit: 18
+  PrimaryOrientation:
+    - Landscape
+  SupportedOrientations:
+    - Portrait
+    - InvertedPortrait
+    - Landscape
+    - InvertedLandscape

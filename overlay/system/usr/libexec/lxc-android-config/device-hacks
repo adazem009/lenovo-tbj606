@@ -1,0 +1,6 @@
+# WiFi: Wait for the property system to be up.
+while [ ! -e /dev/socket/property_service ]; do sleep 0.1; done
+while [ "$(getprop init.svc.vendor.wifi_hal_legacy)" != "running" ]; do sleep 0.5; done
+
+while [ ! -e /dev/wlan ]; do sleep 0.2; done
+echo ON > /dev/wlan

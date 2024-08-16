@@ -15,6 +15,8 @@ J606F:
     - InvertedPortrait
     - Landscape
     - InvertedLandscape
+  FlashlightSysfsPath: "/sys/class/leds/led:torch_0/brightness"
+  FlashlightSwitchPath: "/sys/class/leds/led:switch_0/brightness"
 
 J606L:
   Vendor: Lenovo
@@ -33,3 +35,5 @@ J606L:
     - InvertedPortrait
     - Landscape
     - InvertedLandscape
+  FlashlightSysfsPath: "/sys/class/leds/led:torch_0/brightness"
+  FlashlightSwitchPath: "/sys/class/leds/led:switch_0/brightness"

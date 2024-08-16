@@ -4,3 +4,7 @@ while [ "$(getprop init.svc.vendor.wifi_hal_legacy)" != "running" ]; do sleep 0.
 
 while [ ! -e /dev/wlan ]; do sleep 0.2; done
 echo ON > /dev/wlan
+
+# Fix flashlight permissions
+chmod 0666 /sys/class/leds/led:torch_0/brightness
+chmod 0666 /sys/class/leds/led:switch_0/brightness

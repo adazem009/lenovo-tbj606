@@ -1,0 +1,35 @@
+J606F:
+  Vendor: Lenovo
+  codename: J606F
+  Names:
+    - P11
+    - TB-J606F
+    - Lenovo Tab P11
+  PrettyName: Lenovo Tab P11
+  DeviceType: tablet
+  GridUnit: 18
+  PrimaryOrientation:
+    - Landscape
+  SupportedOrientations:
+    - Portrait
+    - InvertedPortrait
+    - Landscape
+    - InvertedLandscape
+
+J606L:
+  Vendor: Lenovo
+  codename: J606L
+  Names:
+    - P11
+    - TB-J606L
+    - Lenovo Tab P11
+  PrettyName: Lenovo Tab P11
+  DeviceType: tablet
+  GridUnit: 18
+  PrimaryOrientation:
+    - Landscape
+  SupportedOrientations:
+    - Portrait
+    - InvertedPortrait
+    - Landscape
+    - InvertedLandscape
